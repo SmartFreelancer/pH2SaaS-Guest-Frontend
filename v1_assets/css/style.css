@@ -739,9 +739,8 @@ section#contact .btn {
 }
 .btn-action {
     background-color: #fa8144;
-    border-radius: 2px;
+    border-radius: 20px;
     color: #ffffff;
-    border: none;
 }
 .btn.block {
     font-size: 22px;
