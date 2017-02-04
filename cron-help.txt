@@ -1,0 +1,5 @@
+0 0 * * * /usr/local/bin/php -f /home/hizup/webapps/fiverrtools/index.php crons billing_cron membership
+
+folder is: crons
+controller is: billing_cron
+method to be called is: membership
