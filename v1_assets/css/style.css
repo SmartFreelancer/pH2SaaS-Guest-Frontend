@@ -818,7 +818,6 @@ section#contact .btn {
 }
 
 
-
 #hero::before {
     background-image: url("../images/bg-top.jpg");
 }
@@ -1017,6 +1016,17 @@ margin: 0 auto;
 width: 850px;
 border: 1px solid #ccc;
 padding: 30px 60px;
+}
+.italic {
+    font-style: italic;
+}
+.center, .middle {
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+.center {
+    text-align:center;
 }
 
 @media (max-width: 768px) {
