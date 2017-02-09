@@ -849,7 +849,7 @@ color: #555;
 
 .product-hero p {
 color: #555;
- font-size: 18px;
+ font-size: 15px;
 }
 
 .product-hero .price-tag {
@@ -1036,5 +1036,8 @@ padding: 30px 60px;
         height: 100%;
         padding: 10px 20px 30px;
         box-shadow: none;
+   }
+   .period {
+       display: none;
    }
 }
