@@ -1020,6 +1020,12 @@ padding: 30px 60px;
 .italic {
     font-style: italic;
 }
+.underline {
+    text-decoration:underline;
+}
+.strike {
+    text-decoration:line-through;
+}
 .center, .middle {
     margin-left:auto;
     margin-right:auto;
