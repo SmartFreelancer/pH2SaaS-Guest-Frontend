@@ -3,6 +3,10 @@
     Options +FollowSymLinks
     RewriteEngine on
 
+    # Force your domain name to https (only if you have a SSL certificate)
+    # RewriteCond %{HTTP:X-Forwarded-SSL} !on
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
     # Send request via index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
